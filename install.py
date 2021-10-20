@@ -13,6 +13,7 @@ banner = """
 
 """
 os.system("clear")
+os.system("chmod 777 .ddosstart")
 os.system("mv .ddosstart ddosstart")
 print(banner)
 os.system("cp ddosstart $HOME/../usr/bin")
